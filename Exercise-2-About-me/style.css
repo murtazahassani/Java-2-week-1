@@ -1,0 +1,11 @@
+img{
+     width: 20%;
+    
+     align-items: center;
+     overflow: hidden;
+     border-radius: 20px;
+     margin: 20px auto;
+}
+.listitem {
+     color: red;
+   }

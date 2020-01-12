@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Exercise-3-the-logo-hijack</title>
+     <style>
+     img{
+          text-align: center;
+          padding-left: 40%;
+          width: 180px;
+          padding-top: 7%;
+     }
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  /* border: 3px solid #00B4CC; */
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  /* color: #9DBFAF; */
+  box-shadow: 5px 3px 9px  #000000;
+}
+
+.searchTerm:focus{
+  color: rgb(0, 0, 0);
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  /* border: 1px solid #00B4CC; */
+  background: rgb(138, 159, 255);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 25px;
+  box-shadow: 5px 3px 9px  #000000;
+
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* h1{
+     text-shadow: 5px 7px 8px black;text-align: center; font-size: 45px;
+} */
+     
+    
+</style>
+</head>
+<body>
+     <h1 style="text-shadow: 5px 7px 8px black;text-align: center; font-size: 45px;
+     ">Exercise 3: The logo hijack</h1>
+
+     <div id="logo">
+<img src="https://www.hackyourfuture.dk/static/logo-dark.svg">
+     </div>        
+
+<div class="wrap">
+     <div class="search">
+    <!-- <span class="HPVvwb"></span> -->
+     <input  type="text" class="searchTerm" placeholder="What are you looking for?">
+     <button type="submit" class="searchButton">
+     <i class="fa fa-search"></i>      
+</button>
+</div> 
+</div>
+<script src="index.js"></script>
+
+</body>
+</html>
